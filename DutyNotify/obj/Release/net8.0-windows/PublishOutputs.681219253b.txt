@@ -1,0 +1,7 @@
+D:\Tools\DutyNotify\DutyNotify\DutyNotify\bin\Release\net8.0-windows\publish\icon.png
+D:\Tools\DutyNotify\DutyNotify\DutyNotify\bin\Release\net8.0-windows\publish\manifest.yml
+D:\Tools\DutyNotify\DutyNotify\DutyNotify\bin\Release\net8.0-windows\publish\README.md
+D:\Tools\DutyNotify\DutyNotify\DutyNotify\bin\Release\net8.0-windows\publish\DutyNotify.dll
+D:\Tools\DutyNotify\DutyNotify\DutyNotify\bin\Release\net8.0-windows\publish\DutyNotify.deps.json
+D:\Tools\DutyNotify\DutyNotify\DutyNotify\bin\Release\net8.0-windows\publish\DutyNotify.runtimeconfig.json
+D:\Tools\DutyNotify\DutyNotify\DutyNotify\bin\Release\net8.0-windows\publish\DutyNotify.pdb

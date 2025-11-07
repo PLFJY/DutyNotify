@@ -1,0 +1,8 @@
+﻿id: top.plfjy.dutyNotify  # 插件 id
+name: Hello world!  # 插件名称
+apiVersion: 2.0.0.0  # 插件面向的 ClassIsland 版本
+description: 值日提醒。  # 插件描述
+entranceAssembly: "DutyNotify.dll"  # 插件入口程序集
+url: https://github.com/PLFJY/DutyNotify  # 插件 Url
+author: PLFJY  # 插件作者
+version: 1.0.0.0  # 插件版本

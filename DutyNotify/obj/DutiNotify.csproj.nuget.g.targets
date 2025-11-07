@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)\classisland.pluginsdk\1.7.106-dev-v2\build\net8.0\ClassIsland.PluginSdk.targets" Condition="Exists('$(NuGetPackageRoot)\classisland.pluginsdk\1.7.106-dev-v2\build\net8.0\ClassIsland.PluginSdk.targets')" />
+  </ImportGroup>
+</Project>

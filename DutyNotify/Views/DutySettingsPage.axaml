@@ -1,0 +1,101 @@
+﻿<ci:SettingsPageBase
+    x:Class="DutyNotify.Views.DutySettingsPage"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ci="http://classisland.tech/schemas/xaml/core"
+    xmlns:cv="using:DutyNotify.Converters"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="using:DutyNotify.ViewModels"
+    d:DataContext="{d:DesignInstance Type=vm:DutySettingsPageViewModel}"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <ci:SettingsPageBase.Resources>
+
+    </ci:SettingsPageBase.Resources>
+    <ci:SettingsPageBase.Styles>
+        <Style Selector="TextBox">
+            <Setter Property="Width" Value="200" />
+            <Setter Property="HorizontalAlignment" Value="Right" />
+        </Style>
+    </ci:SettingsPageBase.Styles>
+    <ScrollViewer>
+        <StackPanel Margin="10" Spacing="10">
+            <StackPanel Orientation="Horizontal" Spacing="10">
+                <TextBlock
+                    VerticalAlignment="Center"
+                    FontSize="18"
+                    FontWeight="Bold"
+                    Text="值日项目" />
+                <Button Command="{Binding SaveCommand}" Content="Save" />
+            </StackPanel>
+            <!--  值日项目  -->
+            <ListBox ItemsSource="{Binding Settings.DutyItems}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal" Spacing="10">
+                            <Expander Header="{Binding Name}">
+                                <!--  项目名称  -->
+                                <StackPanel Spacing="10">
+                                    <StackPanel Orientation="Horizontal" Spacing="10">
+                                        <TextBlock VerticalAlignment="Center" Text="项目名称" />
+                                        <TextBox Text="{Binding Name}" />
+                                    </StackPanel>
+                                    <!--  值日的学生  -->
+                                    <ItemsControl x:Name="OnDutyStuListCtr" ItemsSource="{Binding OnDutyStudents}">
+                                        <ItemsControl.ItemsPanel>
+                                            <ItemsPanelTemplate>
+                                                <StackPanel Spacing="10" />
+                                            </ItemsPanelTemplate>
+                                        </ItemsControl.ItemsPanel>
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate>
+                                                <StackPanel Orientation="Horizontal" Spacing="10">
+                                                    <TextBlock VerticalAlignment="Center" Text="{Binding $parent[ContentPresenter], Converter={x:Static cv:IntDayWeekConverters.IntToDayWeekConverter}}" />
+                                                    <TextBox Text="{Binding Value}" />
+                                                </StackPanel>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+                                </StackPanel>
+                            </Expander>
+                            <Button
+                                Background="DarkRed"
+                                Command="{Binding $parent[ci:SettingsPageBase].DataContext.DeleteCommand}"
+                                CommandParameter="{Binding}"
+                                Content="删除"
+                                Foreground="White">
+                            </Button>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <Button
+                Background="DarkGreen"
+                Command="{Binding AddCommand}"
+                Content="添加"
+                Foreground="White" />
+            <TextBlock
+                FontSize="18"
+                FontWeight="Bold"
+                Text="提醒时间 (时间点序号，用逗号分隔)" />
+            <ItemsControl ItemsSource="{Binding NotifyIndexViewModels}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Spacing="10" />
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal" Spacing="10">
+                            <TextBlock VerticalAlignment="Center" Text="{Binding DayOfWeek}" />
+                            <TextBox Text="{Binding IndexAssembly}" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </StackPanel>
+
+    </ScrollViewer>
+</ci:SettingsPageBase>

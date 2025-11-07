@@ -1,0 +1,12 @@
+E:\Codes\DutyNotify\DutyNotify\obj\Debug\net8.0\DutyNotify.GeneratedMSBuildEditorConfig.editorconfig
+E:\Codes\DutyNotify\DutyNotify\obj\Debug\net8.0\DutyNotify.AssemblyInfoInputs.cache
+E:\Codes\DutyNotify\DutyNotify\obj\Debug\net8.0\DutyNotify.AssemblyInfo.cs
+E:\Codes\DutyNotify\DutyNotify\obj\Debug\net8.0\DutyNotify.csproj.CoreCompileInputs.cache
+E:\Codes\DutyNotify\DutyNotify\bin\Debug\net8.0\manifest.yml
+E:\Codes\DutyNotify\DutyNotify\bin\Debug\net8.0\DutyNotify.deps.json
+E:\Codes\DutyNotify\DutyNotify\bin\Debug\net8.0\DutyNotify.dll
+E:\Codes\DutyNotify\DutyNotify\bin\Debug\net8.0\DutyNotify.pdb
+E:\Codes\DutyNotify\DutyNotify\obj\Debug\net8.0\DutyNotify.dll
+E:\Codes\DutyNotify\DutyNotify\obj\Debug\net8.0\refint\DutyNotify.dll
+E:\Codes\DutyNotify\DutyNotify\obj\Debug\net8.0\DutyNotify.pdb
+E:\Codes\DutyNotify\DutyNotify\obj\Debug\net8.0\ref\DutyNotify.dll

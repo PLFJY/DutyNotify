@@ -1,0 +1,17 @@
+D:\Tools\DutyNotify\DutyNotify\DutyNotify\bin\Debug\net8.0-windows\manifest.yml
+D:\Tools\DutyNotify\DutyNotify\DutyNotify\bin\Debug\net8.0-windows\DutyNotify.deps.json
+D:\Tools\DutyNotify\DutyNotify\DutyNotify\bin\Debug\net8.0-windows\DutyNotify.runtimeconfig.json
+D:\Tools\DutyNotify\DutyNotify\DutyNotify\bin\Debug\net8.0-windows\DutyNotify.dll
+D:\Tools\DutyNotify\DutyNotify\DutyNotify\bin\Debug\net8.0-windows\DutyNotify.pdb
+D:\Tools\DutyNotify\DutyNotify\DutyNotify\obj\Debug\net8.0-windows\DutyNotify.csproj.AssemblyReference.cache
+D:\Tools\DutyNotify\DutyNotify\DutyNotify\obj\Debug\net8.0-windows\Avalonia\Resources.Inputs.cache
+D:\Tools\DutyNotify\DutyNotify\DutyNotify\obj\Debug\net8.0-windows\DutyNotify.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tools\DutyNotify\DutyNotify\DutyNotify\obj\Debug\net8.0-windows\DutyNotify.AssemblyInfoInputs.cache
+D:\Tools\DutyNotify\DutyNotify\DutyNotify\obj\Debug\net8.0-windows\DutyNotify.AssemblyInfo.cs
+D:\Tools\DutyNotify\DutyNotify\DutyNotify\obj\Debug\net8.0-windows\DutyNotify.csproj.CoreCompileInputs.cache
+D:\Tools\DutyNotify\DutyNotify\DutyNotify\obj\Debug\net8.0-windows\DutyNotify.dll
+D:\Tools\DutyNotify\DutyNotify\DutyNotify\obj\Debug\net8.0-windows\refint\DutyNotify.dll
+D:\Tools\DutyNotify\DutyNotify\DutyNotify\obj\Debug\net8.0-windows\DutyNotify.pdb
+D:\Tools\DutyNotify\DutyNotify\DutyNotify\obj\Debug\net8.0-windows\DutyNotify.genruntimeconfig.cache
+D:\Tools\DutyNotify\DutyNotify\DutyNotify\obj\Debug\net8.0-windows\ref\DutyNotify.dll
+D:\Tools\DutyNotify\DutyNotify\DutyNotify\obj\Debug\net8.0-windows\Avalonia\resources
