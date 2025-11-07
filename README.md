@@ -1,2 +1,2 @@
 # DutyNotify 
-A plugin of classisland which can notify students who are on duty 
+A plugin of [ClassIsland](https://github.com/ClassIsland/ClassIsland) which can notify students who are on duty 
